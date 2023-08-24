@@ -1,0 +1,40 @@
+header { background-color: rgb(212, 134, 45);
+    color: white;
+    }
+    img{
+        width: 50%;
+    
+    }
+    nav{
+        background-color: tomato;
+        color:blue;
+        width: 100%;
+    }
+    section{
+        color: darkblue;
+        background-color: blanchedalmond;
+        width: 80%;
+        float: left;
+    }
+    p{color: black;
+    margin: 0.5rem 0.2rem;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    }
+    aside{
+        background-color: aqua;
+        width: 18.5%;
+    float: right;
+    }
+    b{color: blue;}
+    
+    footer{
+        color: red;
+        background-color: aqua;
+        width: 100%;
+        clear: both;
+    }
+    body{background-color: beige;}
+    @media screen and (max-width: 780px){section,aside{width: 100%;}}
+        
